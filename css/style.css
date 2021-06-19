@@ -1,0 +1,412 @@
+body {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: none;
+    color: #000;
+}
+a {
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+.container {
+    width: 1600px;
+    /* font-family: 'Bebas Neue', 'sans-serif'; */
+    font-weight: 400;
+    text-transform: none;
+}
+
+#announcement-bar {
+    background-color: rgba(205,169,157,0.9);
+    font-size: 14px;
+    color:#222;
+    position: relative;
+}
+
+#announcement-close {
+    position: absolute;
+    border:none;
+    outline: none;
+    right:0;
+    top:0;
+    font-size: 36px;
+    color: rgba(255,255,255,.3);
+    background-color: rgba(201, 156, 140, 0.9);
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media-top a {
+   display: inline-block;
+   color:black;
+   font-size: 18px;
+   font-weight: 300;
+   padding-left: 10px;
+   letter-spacing: 0.1em;
+   transition: color 170ms;
+   text-decoration: none;
+   font-family: 'Bebas Neue', 'sans-serif';
+}
+#social-media-top .nav-item:hover > *:not(:hover)  { 
+    color: rgba(0,0,0,.4) 
+}
+
+/* navbar */
+.mainNavbar {
+    color:#fff!important;
+    font-family: 'Bebas Neue', 'sans-serif';
+    background-color: #00b7b7;
+}
+#collapseNavbar a {
+    color: white;
+    font-size: 24px;
+    transition: color 170ms;
+    font-family: 'Bebas Neue', 'sans-serif';
+}
+#collapseNavbar .navbar-nav:hover  *:not(:hover) {
+    color: rgba(0,0,0,.3)
+}
+
+.covid-update p {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin: 0 50px;
+}
+
+/* horizontal line */
+.horizontal-line hr {
+    width: 100%;
+    background-color:rgba(0,0,0,.4);
+    border:1px solid rgba(0,0,0,.4)
+
+}
+.brand-info h2 {
+    font-size: 58px;
+    line-height: 0.9em;
+}
+.brand-info p{
+    font-family: 'Work Sans';
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.btn-brand {
+    display: block;
+    padding: 0.2em 1em;
+    line-height: 1.7em;
+    font-size: 31px;
+    color:#fff!important;
+    background:url('./images/icon_arrow.png') no-repeat;
+    background-color: #000;
+    background-position: 96% center;
+    /* background-size: auto 30%; */
+    font-family: 'Bebas Neue', 'sans-serif';
+}
+
+.btn-brand:hover {
+    text-decoration: none;
+}
+
+#suitsannoucement {
+    background-color: #f4be27;
+    padding: 60px 20px;
+    text-transform: uppercase;
+    font-family: 'Work Sans';
+    font-size: 28px;
+    color:#000;
+}
+#suitsannoucement p {
+    font-size: 32px;
+    color:#000;
+    padding: 17px;
+    line-height: 1em;
+    letter-spacing: 0.04em;
+    font-family: 'Bebas Neue', 'sans-serif';
+}
+#suitsannoucement .btn {
+    color: #222;
+    /* google font ?? to small??*/
+    font-family: 'Work Sans';
+    font-size: 24px;
+    padding: 16px 16px;
+    border: 2px solid #222;
+}
+
+#suitsannoucement .btn:hover {
+    background-color: black;
+    color:white;
+}
+
+.modal-title {
+    font-size: 22px;
+}
+.modal-body label {
+    font-size: 18px;
+    text-align: left;
+    
+}
+.modal-footer .btn {
+    /* border:1px solid black; */
+    border:0;
+    outline: 0;
+}
+
+
+
+/* Who's at Fellow */
+.atfellow h1 {
+    font-size: 50px;
+}
+.atfellow img {
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.atfellow .card-header {
+    background-color: transparent;
+    border: none;
+    padding-top: 0;
+}
+
+.atfellow .card-header>span {
+    font-size: 21px;
+    background-color: #00b7b7;
+    color: white;
+}
+.atfellow .card-title {
+    background-color: none;
+    font-size: 24px;
+    font-family: 'Work Sans';
+}
+.atfellow .card-text {
+    background-color: none;
+    font-size: 18px;
+    font-family: 'Work Sans';
+}
+
+.btn-members {
+    display: block;
+    padding: 0.2em 1em;
+    color:#fff!important;
+    font-family: 'Bebas Neue', 'sans-serif';
+    background-color: #000;
+}
+
+.btn-members:hover {
+    text-decoration: none;
+}
+
+/* index page: Services Section */
+
+.services h3 {
+    font-family: 'Work Sans';
+    /* font-size: 24px; */
+    color: #000;
+}
+
+/* membership page */
+.membership-intro h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Work Sans';
+    font-weight: bold;
+}
+
+
+
+/* contact page:  */
+.customer-info {
+    font-size: 20px;
+}
+.customer-info input {
+    background-color: #fafafa;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    font-family: sans-serif;
+    color:black;
+    outline: none;
+}
+.customer-info input:focus {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: 2px;
+    outline:none;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.4);
+}
+
+.customer-name label {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', 'sans-serif';
+}
+.contact-info {
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: 'Work Sans';
+    color: black;
+}
+.contact-info a {
+    text-decoration:none;
+    color: #000;
+    
+    border-bottom: 1px solid #999;
+    transition: color 500ms ease;
+}
+.contact-info div a:hover {
+    color:#888;
+}
+
+/* membership page */
+#pricing .card {
+    border: none;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  #pricing .card::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  #pricing .card:hover::before {
+    opacity: 1;
+  }
+
+#pricing .card-header {
+    padding-bottom: 0;
+    border: none;
+}
+
+#pricing .card-header span{
+    font-size: 21px;
+    color:#fff;
+    font-family: 'Bebas Neue', 'sans-serif';
+    letter-spacing: 0.12em;
+    line-height: 1.4em;
+    background-color: #00b7b7;
+    text-transform: uppercase;
+}
+
+#pricing .card-header h3 {
+    font-size: 30px;
+    color: rgba(0,0,0,.8);
+    font-family: 'Work Sans';
+}
+
+#pricing .card-header h5 {
+    font-size: 20px;
+    font-family: 'Bebas Neue', 'sans-serif';
+    font-weight: bold;
+}
+
+#pricing li {
+    font-size: 20px;
+    font-family: 'Work Sans';
+    border: none;
+}
+
+
+
+/* amenities */
+.amenities {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    margin: 20px;
+}
+
+.amenities .img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.amenities .img-container img {
+    height: 250px;
+    margin: -35px 0px 0px -70px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); */
+    opacity: 0.8;
+}
+
+
+.amenities .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.amenities .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #00b7b7;
+    font-size: 18px;
+}
+
+.amenities ul li {
+    list-style: disc;
+    text-align: left;
+    margin: 0 0 3px 8px;
+
+    font-family: 'Work Sans';
+    /* letter-spacing: 0.05em; */
+}
+
+
+/* footer section */
+#footer {
+    background-color: black;
+}
+
+#footer a {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+#footer h2 a {
+    font-size: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+#footer h2 a:hover {
+    color: rgba(255,255,255,0.5);
+    -webkit-transition: color 0.15ms ease;
+    transition: color 0.15ms ease-out;
+    text-decoration: none;
+}
+
+
